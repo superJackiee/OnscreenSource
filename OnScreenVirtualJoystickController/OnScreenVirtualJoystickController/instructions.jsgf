@@ -1,0 +1,8 @@
+#JSGF V1.0;
+
+grammar Instructions;
+
+public <Instructions> = ( <Instruction> );
+
+<Instruction> = (zero | one | two | three | four | five | six | seven | eight | nine );
+

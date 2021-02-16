@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Controllers>
+  <Controller>
+    <Name>Controller1</Name>
+    <Component>
+      <Type>Button</Type>
+      <XValue>927</XValue>
+      <YValue>174</YValue>
+      <WidthValue>350</WidthValue>
+      <HeightValue>350</HeightValue>
+      <TextValue />
+      <BackColorValue>-8882056</BackColorValue>
+      <ForeColorValue>-6250336</ForeColorValue>
+    </Component>
+  </Controller>
+</Controllers>

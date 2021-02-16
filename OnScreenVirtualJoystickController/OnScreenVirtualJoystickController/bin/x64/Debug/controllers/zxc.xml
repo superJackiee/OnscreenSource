@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Controller>
+  <Name>zxc</Name>
+  <Button>
+    <XValue>1247</XValue>
+    <YValue>68</YValue>
+    <WidthValue>50</WidthValue>
+    <HeightValue>50</HeightValue>
+    <TextValue />
+    <BackColorValue>-16776961</BackColorValue>
+    <ForeColorValue>-6250336</ForeColorValue>
+    <JoystickBtnName>2</JoystickBtnName>
+    <JoystickBtnID>2</JoystickBtnID>
+  </Button>
+  <Button>
+    <XValue>1290</XValue>
+    <YValue>555</YValue>
+    <WidthValue>350</WidthValue>
+    <HeightValue>350</HeightValue>
+    <TextValue />
+    <BackColorValue>-16711872</BackColorValue>
+    <ForeColorValue>-6250336</ForeColorValue>
+    <JoystickBtnName>3</JoystickBtnName>
+    <JoystickBtnID>3</JoystickBtnID>
+  </Button>
+  <Button>
+    <XValue>777</XValue>
+    <YValue>286</YValue>
+    <WidthValue>350</WidthValue>
+    <HeightValue>350</HeightValue>
+    <TextValue />
+    <BackColorValue>-65536</BackColorValue>
+    <ForeColorValue>-6250336</ForeColorValue>
+    <JoystickBtnName>1</JoystickBtnName>
+    <JoystickBtnID>1</JoystickBtnID>
+  </Button>
+</Controller>

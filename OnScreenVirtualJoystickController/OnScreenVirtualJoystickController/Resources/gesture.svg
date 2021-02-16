@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_1">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+      <feOffset dx="0" dy="0" />
+      <feGaussianBlur stdDeviation="12" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.26666668 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect0_dropShadow" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect0_dropShadow" result="shape" />
+    </filter>
+    <rect width="150" height="150" id="artboard_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#artboard_1" clip-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="iWatch-42mm-3" clip-path="url(#clip_1)">
+    <use xlink:href="#artboard_1" stroke="none" fill="#F7FCFF" fill-opacity="0" />
+    <path d="M0 75C0 33.5786 33.5786 0 75 0C116.421 0 150 33.5786 150 75C150 116.421 116.421 150 75 150C33.5786 150 0 116.421 0 75Z" id="Ellipse-2" fill="#474747" stroke="none" />
+    <g filter="url(#filter_1)">
+      <path d="M0 5C0 2.23858 2.23858 0 5 0C7.76142 0 10 2.23858 10 5C10 7.76142 7.76142 10 5 10C2.23858 10 0 7.76142 0 5Z" transform="translate(32 33)" id="Ellipse-3" fill="#A6A2A2" stroke="none" />
+    </g>
+    <g filter="url(#filter_1)">
+      <path d="M0 5C0 2.23858 2.23858 0 5 0C7.76142 0 10 2.23858 10 5C10 7.76142 7.76142 10 5 10C2.23858 10 0 7.76142 0 5Z" transform="translate(73 73)" id="Ellipse-3-Copy" fill="#A6A2A2" stroke="none" />
+    </g>
+    <g filter="url(#filter_1)">
+      <path d="M0 5C0 2.23858 2.23858 0 5 0C7.76142 0 10 2.23858 10 5C10 7.76142 7.76142 10 5 10C2.23858 10 0 7.76142 0 5Z" transform="translate(73 34)" id="Ellipse-3-Copy-2" fill="#A6A2A2" stroke="none" />
+    </g>
+    <g filter="url(#filter_1)">
+      <path d="M0 5C0 2.23858 2.23858 0 5 0C7.76142 0 10 2.23858 10 5C10 7.76142 7.76142 10 5 10C2.23858 10 0 7.76142 0 5Z" transform="translate(73 112)" id="Ellipse-3-Copy-3" fill="#A6A2A2" stroke="none" />
+    </g>
+    <g filter="url(#filter_1)">
+      <path d="M0 5C0 2.23858 2.23858 0 5 0C7.76142 0 10 2.23858 10 5C10 7.76142 7.76142 10 5 10C2.23858 10 0 7.76142 0 5Z" transform="translate(110 73)" id="Ellipse-3-Copy-4" fill="#A6A2A2" stroke="none" />
+    </g>
+    <g filter="url(#filter_1)">
+      <path d="M0 5C0 2.23858 2.23858 0 5 0C7.76142 0 10 2.23858 10 5C10 7.76142 7.76142 10 5 10C2.23858 10 0 7.76142 0 5Z" transform="translate(111 35)" id="Ellipse-3-Copy-5" fill="#A6A2A2" stroke="none" />
+    </g>
+    <g filter="url(#filter_1)">
+      <path d="M0 5C0 2.23858 2.23858 0 5 0C7.76142 0 10 2.23858 10 5C10 7.76142 7.76142 10 5 10C2.23858 10 0 7.76142 0 5Z" transform="translate(110 112)" id="Ellipse-3-Copy-6" fill="#A6A2A2" stroke="none" />
+    </g>
+    <g filter="url(#filter_1)">
+      <path d="M0 5C0 2.23858 2.23858 0 5 0C7.76142 0 10 2.23858 10 5C10 7.76142 7.76142 10 5 10C2.23858 10 0 7.76142 0 5Z" transform="translate(32 111)" id="Ellipse-3-Copy-7" fill="#A6A2A2" stroke="none" />
+    </g>
+    <g filter="url(#filter_1)">
+      <path d="M0 5C0 2.23858 2.23858 0 5 0C7.76142 0 10 2.23858 10 5C10 7.76142 7.76142 10 5 10C2.23858 10 0 7.76142 0 5Z" transform="translate(31 72)" id="Ellipse-3-Copy-8" fill="#A6A2A2" stroke="none" />
+    </g>
+  </g>
+</svg>

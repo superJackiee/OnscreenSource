@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1935AD7E-89CE-4132-B7C0-5415696AB327}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OnScreenVirtualJoystickController</RootNamespace>
+    <AssemblyName>OnScreenVirtualJoystickController</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>39B0E87C65440C580DB070A5EA9C41C9D1BAD143</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>OnScreenVirtualJoystickController_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>windows.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ShapeControl">
+      <HintPath>ShapeControl.dll</HintPath>
+    </Reference>
+    <Reference Include="LowLevelInput, Version=1.36.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>LowLevelInput.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="vJoyInterfaceWrap, Version=0.2.0.5, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>vJoyInterfaceWrap.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ButtonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ButtonForm.Designer.cs">
+      <DependentUpon>ButtonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompactControllerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompactControllerForm.Designer.cs">
+      <DependentUpon>CompactControllerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompactJoystickCfgFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompactJoystickCfgFrom.Designer.cs">
+      <DependentUpon>CompactJoystickCfgFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComplexControllerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComplexControllerForm.Designer.cs">
+      <DependentUpon>ComplexControllerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComplexJoystickCfgForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComplexJoystickCfgForm.Designer.cs">
+      <DependentUpon>ComplexJoystickCfgForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DirectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DirectionForm.Designer.cs">
+      <DependentUpon>DirectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalMouseHandler.cs" />
+    <Compile Include="MoveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoveForm.Designer.cs">
+      <DependentUpon>MoveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NormalControllerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NormalControllerForm.Designer.cs">
+      <DependentUpon>NormalControllerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NormalJoystickCfgForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NormalJoystickCfgForm.Designer.cs">
+      <DependentUpon>NormalJoystickCfgForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FingerPrint.cs" />
+    <Compile Include="MainController.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainController.Designer.cs">
+      <DependentUpon>MainController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyCheck.cs" />
+    <Compile Include="KeyVerificationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyVerificationForm.Designer.cs">
+      <DependentUpon>KeyVerificationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionForm.Designer.cs">
+      <DependentUpon>OptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistryManagement.cs" />
+    <Compile Include="TabletController.cs" />
+    <Compile Include="EditBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditBoxForm.Designer.cs">
+      <DependentUpon>EditBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TouchControllerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TouchControllerForm.Designer.cs">
+      <DependentUpon>TouchControllerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TouchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TouchForm.Designer.cs">
+      <DependentUpon>TouchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TouchJoystickCfgForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TouchJoystickCfgForm.Designer.cs">
+      <DependentUpon>TouchJoystickCfgForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VoiceJoystickCfgForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VoiceJoystickCfgForm.Designer.cs">
+      <DependentUpon>VoiceJoystickCfgForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VoiceController.cs" />
+    <EmbeddedResource Include="ButtonForm.resx">
+      <DependentUpon>ButtonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompactControllerForm.resx">
+      <DependentUpon>CompactControllerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompactJoystickCfgFrom.resx">
+      <DependentUpon>CompactJoystickCfgFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComplexControllerForm.resx">
+      <DependentUpon>ComplexControllerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComplexJoystickCfgForm.resx">
+      <DependentUpon>ComplexJoystickCfgForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DirectionForm.resx">
+      <DependentUpon>DirectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainController.resx">
+      <DependentUpon>MainController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyVerificationForm.resx">
+      <DependentUpon>KeyVerificationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoveForm.resx">
+      <DependentUpon>MoveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NormalControllerForm.resx">
+      <DependentUpon>NormalControllerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NormalJoystickCfgForm.resx">
+      <DependentUpon>NormalJoystickCfgForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionForm.resx">
+      <DependentUpon>OptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditBoxForm.resx">
+      <DependentUpon>EditBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TouchControllerForm.resx">
+      <DependentUpon>TouchControllerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TouchForm.resx">
+      <DependentUpon>TouchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TouchJoystickCfgForm.resx">
+      <DependentUpon>TouchJoystickCfgForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoiceJoystickCfgForm.resx">
+      <DependentUpon>VoiceJoystickCfgForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="OnScreenVirtualJoystickController_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movingpart_compat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlueButton_compact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DangerButton_compact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IndigoButton_compact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluebutton_complex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluebutton_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curcle_compact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curcle_complex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curcle_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dangerbutton_complex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dangerbutton_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downbutton_complex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenbutton_compact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenbutton_complex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenbutton_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indigobutton_complex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indigobutton_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftbutton_complex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movingpart_complex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movingpart_mornal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightbutton_complex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upbutton_complex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_complex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluebutton_down_tablet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluebutton_up_tablet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle_tablet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dangerbutton_down_tablet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dangerbutton_up_tablet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenbutton_down_tablet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenbutton_up_tablet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indigobutton_down_tablet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indigobutton_up_tablet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movingpart_tablet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_bottomcenter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_bottomleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_bottomright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_middlecenter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_middleleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_middleright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_topcenter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_topleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_topright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dangerbutton_mask_tablet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenbutton_mask_tablet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indigobutton_mask_tablet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluebutton_mask_tablet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_bottomcenter_mask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_bottomleft_mask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_bottomright_mask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_middleleft_mask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_middleright_mask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_topcenter_mask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_topleft_mask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_topright_mask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluebutton_compact.shp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dangerbutton_compact.shp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dangerbutton_down_tablet - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenbutton_compact.shp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indigobutton_compact.shp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_bottomcenter_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_bottomcenter_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_bottomcenter_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_bottomleft_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_bottomleft_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_bottomright_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_bottomright_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_middlecenter_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_middlecenter_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_middlecenter_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_middlecenter_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_middleleft_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_middleleft_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_middleleft_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_middleright_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_middleright_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_middleright_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_topcenter_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_topcenter_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_topleft_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_topleft_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_topright_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_topright_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_topcenter_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_middleright_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch_board.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\direction.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gesture.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\direction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gesture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\direction_circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editbox_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editbox_direction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editbox_gesture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editbox_move.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows.ico" />
+    <Content Include="windows.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

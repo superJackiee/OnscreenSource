@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Controller>
+  <Name>dfg</Name>
+  <Button>
+    <XValue>1189</XValue>
+    <YValue>350</YValue>
+    <WidthValue>139</WidthValue>
+    <HeightValue>139</HeightValue>
+    <TextValue>AA</TextValue>
+    <BackColorValue>-8882056</BackColorValue>
+    <ForeColorValue>-12582784</ForeColorValue>
+    <JoystickBtnName>15</JoystickBtnName>
+    <JoystickBtnID>15</JoystickBtnID>
+  </Button>
+  <Button>
+    <XValue>1474</XValue>
+    <YValue>152</YValue>
+    <WidthValue>126</WidthValue>
+    <HeightValue>126</HeightValue>
+    <TextValue>BB</TextValue>
+    <BackColorValue>-8882056</BackColorValue>
+    <ForeColorValue>-32640</ForeColorValue>
+    <JoystickBtnName>6</JoystickBtnName>
+    <JoystickBtnID>6</JoystickBtnID>
+  </Button>
+</Controller>

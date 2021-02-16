@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Controller>
+  <Name>oooo</Name>
+  <Direction>
+    <XValue>848</XValue>
+    <YValue>286</YValue>
+    <WidthValue>350</WidthValue>
+    <HeightValue>350</HeightValue>
+    <BackColorValue>-65536</BackColorValue>
+    <MovingColorValue>-6250336</MovingColorValue>
+    <HorizontalAxisName>0</HorizontalAxisName>
+    <HorizontalAxisID>0</HorizontalAxisID>
+    <VerticalAxisName>0</VerticalAxisName>
+    <VerticalAxisID>0</VerticalAxisID>
+  </Direction>
+</Controller>

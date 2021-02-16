@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Controller>
+  <Name>move11</Name>
+  <Move>
+    <XValue>642</XValue>
+    <YValue>279</YValue>
+    <WidthValue>350</WidthValue>
+    <HeightValue>350</HeightValue>
+    <BackColorValue>-3618616</BackColorValue>
+    <ForeColorValue>-8882056</ForeColorValue>
+    <MovingColorValue>-6250336</MovingColorValue>
+    <HorizontalAxisName>3</HorizontalAxisName>
+    <HorizontalAxisID>50</HorizontalAxisID>
+    <VerticalAxisName>1</VerticalAxisName>
+    <VerticalAxisID>48</VerticalAxisID>
+  </Move>
+</Controller>

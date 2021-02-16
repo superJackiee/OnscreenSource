@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Controller>
+  <Name>touch</Name>
+  <Touch>
+    <XValue>1017</XValue>
+    <YValue>176</YValue>
+    <WidthValue>350</WidthValue>
+    <HeightValue>350</HeightValue>
+    <BackColorValue>-8882056</BackColorValue>
+    <ForeColorValue>-6250336</ForeColorValue>
+    <JoystickBtnName>0</JoystickBtnName>
+    <JoystickBtnID>0</JoystickBtnID>
+  </Touch>
+</Controller>

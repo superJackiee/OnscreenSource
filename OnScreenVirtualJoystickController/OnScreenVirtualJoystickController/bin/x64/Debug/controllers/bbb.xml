@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Controller>
+  <Name>bbb</Name>
+  <Button>
+    <XValue>996</XValue>
+    <YValue>139</YValue>
+    <WidthValue>350</WidthValue>
+    <HeightValue>350</HeightValue>
+    <TextValue />
+    <BackColorValue>-8882056</BackColorValue>
+    <ForeColorValue>-6250336</ForeColorValue>
+    <JoyStickBtnName>18</JoyStickBtnName>
+    <JoyStickBtnID>18</JoyStickBtnID>
+  </Button>
+  <Button>
+    <XValue>1141</XValue>
+    <YValue>472</YValue>
+    <WidthValue>350</WidthValue>
+    <HeightValue>350</HeightValue>
+    <TextValue />
+    <BackColorValue>-8882056</BackColorValue>
+    <ForeColorValue>-6250336</ForeColorValue>
+    <JoyStickBtnName>42</JoyStickBtnName>
+    <JoyStickBtnID>42</JoyStickBtnID>
+  </Button>
+</Controller>

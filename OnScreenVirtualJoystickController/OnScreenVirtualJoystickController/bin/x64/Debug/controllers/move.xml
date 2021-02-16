@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Controller>
+  <Name>move</Name>
+  <Move>
+    <XValue>991</XValue>
+    <YValue>176</YValue>
+    <WidthValue>350</WidthValue>
+    <HeightValue>350</HeightValue>
+    <BackColorValue>-3618616</BackColorValue>
+    <ForeColorValue>-8882056</ForeColorValue>
+    <MovingColorValue>-6250336</MovingColorValue>
+    <JoystickAxisName>0</JoystickAxisName>
+    <JoystickAxisID>0</JoystickAxisID>
+  </Move>
+</Controller>

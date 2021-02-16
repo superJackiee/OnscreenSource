@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Controller>
+  <Name>qwe</Name>
+  <Button>
+    <XValue>952</XValue>
+    <YValue>79</YValue>
+    <WidthValue>350</WidthValue>
+    <HeightValue>350</HeightValue>
+    <TextValue />
+    <BackColorValue>-8882056</BackColorValue>
+    <ForeColorValue>-6250336</ForeColorValue>
+    <JoyStickBtnName>1</JoyStickBtnName>
+    <JoyStickBtnID>1</JoyStickBtnID>
+  </Button>
+  <Button>
+    <XValue>1346</XValue>
+    <YValue>508</YValue>
+    <WidthValue>350</WidthValue>
+    <HeightValue>350</HeightValue>
+    <TextValue />
+    <BackColorValue>-8882056</BackColorValue>
+    <ForeColorValue>-6250336</ForeColorValue>
+    <JoyStickBtnName>2</JoyStickBtnName>
+    <JoyStickBtnID>2</JoyStickBtnID>
+  </Button>
+</Controller>

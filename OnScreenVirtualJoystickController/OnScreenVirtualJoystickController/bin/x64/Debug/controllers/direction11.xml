@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Controller>
+  <Name>direction11</Name>
+  <Direction>
+    <XValue>645</XValue>
+    <YValue>193</YValue>
+    <WidthValue>350</WidthValue>
+    <HeightValue>350</HeightValue>
+    <BackColorValue>-8882056</BackColorValue>
+    <MovingColorValue>-6250336</MovingColorValue>
+    <HorizontalAxisName>1</HorizontalAxisName>
+    <HorizontalAxisID>48</HorizontalAxisID>
+    <VerticalAxisName>3</VerticalAxisName>
+    <VerticalAxisID>50</VerticalAxisID>
+  </Direction>
+</Controller>

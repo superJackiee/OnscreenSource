@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="touch_middleleft_mask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_middleleft_mask.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="indigobutton_compact_shp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\indigobutton_compact.shp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_middleleft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_middleleft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_bottomright_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_bottomright_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="curcle_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\curcle_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bluebutton_down_tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bluebutton_down_tablet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="indigobutton_compact" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\indigobutton_compact.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="curcle_compact" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\curcle_compact.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_topleft_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_topleft_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_bottomleft_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_bottomleft_up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="indigobutton_down_tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\indigobutton_down_tablet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bluebutton_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bluebutton_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dangerbutton_down_tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dangerbutton_down_tablet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_bottomleft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_bottomleft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="movingpart_complex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\movingpart_complex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_middlecenter_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_middlecenter_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_bottomleft_mask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_bottomleft_mask.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dangerbutton_up_tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dangerbutton_up_tablet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="greenbutton_compact_shp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\greenbutton_compact.shp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_middleright_mask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_middleright_mask.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="greenbutton_mask_tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\greenbutton_mask_tablet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="indigobutton_complex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\indigobutton_complex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_bottomcenter_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_bottomcenter_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_topcenter_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_topcenter_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_topright_mask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_topright_mask.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="movingpart_mornal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\movingpart_mornal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="indigobutton_up_tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\indigobutton_up_tablet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="upbutton_complex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\upbutton_complex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_topcenter_mask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_topcenter_mask.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_topright_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_topright_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="movingpart_tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\movingpart_tablet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightbutton_complex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightbutton_complex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_middleleft_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_middleleft_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="greenbutton_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\greenbutton_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="indigobutton_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\indigobutton_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_topright_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_topright_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_middleright_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_middleright_up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_middleleft_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_middleleft_up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftbutton_complex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftbutton_complex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_topleft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_topleft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_middlecenter_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_middlecenter_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="greenbutton_down_tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\greenbutton_down_tablet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dangerbutton_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dangerbutton_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_bottomcenter_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_bottomcenter_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_topcenter_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_topcenter_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_middlecenter_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_middlecenter_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="greenbutton_compact" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\greenbutton_compact.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_middleright" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_middleright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_middleright_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_middleright_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_topright" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_topright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_topcenter_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_topcenter_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_middlecenter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_middlecenter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="indigobutton_mask_tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\indigobutton_mask_tablet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_bottomcenter_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_bottomcenter_up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="greenbutton_complex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\greenbutton_complex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_bottomright_mask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_bottomright_mask.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_bottomright_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_bottomright_up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dangerbutton_compact_shp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dangerbutton_compact.shp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="curcle_complex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\curcle_complex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_bottomcenter_mask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_bottomcenter_mask.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bluebutton_compact" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bluebutton_compact.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_bottomcenter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_bottomcenter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_bottomright" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_bottomright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bluebutton_complex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bluebutton_complex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="greenbutton_up_tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\greenbutton_up_tablet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_bottomleft_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_bottomleft_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="movingpart_compat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\movingpart_compat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_board" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_board.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circle_tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle_tablet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bluebutton_up_tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bluebutton_up_tablet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background_complex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background_complex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_middlecenter_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_middlecenter_up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dangerbutton_complex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dangerbutton_complex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="direction_circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\direction_circle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_middleright_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_middleright_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dangerbutton_mask_tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dangerbutton_mask_tablet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_topleft_mask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_topleft_mask.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bluebutton_mask_tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bluebutton_mask_tablet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_topcenter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_topcenter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_topleft_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_topleft_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bluebutton_compact_shp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bluebutton_compact.shp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="downbutton_complex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\downbutton_complex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dangerbutton_compact" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dangerbutton_compact.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_middleleft_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch_middleleft_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editbox_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editbox_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editbox_direction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editbox_direction.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editbox_gesture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editbox_gesture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editbox_move" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editbox_move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

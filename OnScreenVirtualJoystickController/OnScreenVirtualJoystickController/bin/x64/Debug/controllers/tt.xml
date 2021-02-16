@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Controller>
+  <Name>tt</Name>
+  <Direction>
+    <XValue>864</XValue>
+    <YValue>182</YValue>
+    <WidthValue>350</WidthValue>
+    <HeightValue>350</HeightValue>
+    <BackColorValue>-8882056</BackColorValue>
+    <MovingColorValue>-6250336</MovingColorValue>
+    <JoystickAxisName>1</JoystickAxisName>
+    <JoystickAxisID>48</JoystickAxisID>
+  </Direction>
+</Controller>

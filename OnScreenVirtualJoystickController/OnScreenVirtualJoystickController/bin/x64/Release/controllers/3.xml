@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Controller>
+  <Name>3</Name>
+  <Button>
+    <XValue>657</XValue>
+    <YValue>168</YValue>
+    <WidthValue>350</WidthValue>
+    <HeightValue>350</HeightValue>
+    <TextValue />
+    <BackColorValue>-8882056</BackColorValue>
+    <ForeColorValue>-6250336</ForeColorValue>
+    <JoystickBtnName>1</JoystickBtnName>
+    <JoystickBtnID>1</JoystickBtnID>
+  </Button>
+  <Button>
+    <XValue>729</XValue>
+    <YValue>211</YValue>
+    <WidthValue>350</WidthValue>
+    <HeightValue>350</HeightValue>
+    <TextValue />
+    <BackColorValue>-8882056</BackColorValue>
+    <ForeColorValue>-6250336</ForeColorValue>
+    <JoystickBtnName>1</JoystickBtnName>
+    <JoystickBtnID>1</JoystickBtnID>
+  </Button>
+  <Button>
+    <XValue>1158</XValue>
+    <YValue>458</YValue>
+    <WidthValue>350</WidthValue>
+    <HeightValue>350</HeightValue>
+    <TextValue />
+    <BackColorValue>-8882056</BackColorValue>
+    <ForeColorValue>-6250336</ForeColorValue>
+    <JoystickBtnName>2</JoystickBtnName>
+    <JoystickBtnID>2</JoystickBtnID>
+  </Button>
+  <Button>
+    <XValue>665</XValue>
+    <YValue>598</YValue>
+    <WidthValue>350</WidthValue>
+    <HeightValue>350</HeightValue>
+    <TextValue />
+    <BackColorValue>-8882056</BackColorValue>
+    <ForeColorValue>-6250336</ForeColorValue>
+    <JoystickBtnName>3</JoystickBtnName>
+    <JoystickBtnID>3</JoystickBtnID>
+  </Button>
+  <Button>
+    <XValue>729</XValue>
+    <YValue>211</YValue>
+    <WidthValue>350</WidthValue>
+    <HeightValue>350</HeightValue>
+    <TextValue />
+    <BackColorValue>-8882056</BackColorValue>
+    <ForeColorValue>-6250336</ForeColorValue>
+    <JoystickBtnName>1</JoystickBtnName>
+    <JoystickBtnID>1</JoystickBtnID>
+  </Button>
+  <Button>
+    <XValue>1158</XValue>
+    <YValue>458</YValue>
+    <WidthValue>350</WidthValue>
+    <HeightValue>350</HeightValue>
+    <TextValue />
+    <BackColorValue>-8882056</BackColorValue>
+    <ForeColorValue>-6250336</ForeColorValue>
+    <JoystickBtnName>2</JoystickBtnName>
+    <JoystickBtnID>2</JoystickBtnID>
+  </Button>
+  <Button>
+    <XValue>665</XValue>
+    <YValue>598</YValue>
+    <WidthValue>350</WidthValue>
+    <HeightValue>350</HeightValue>
+    <TextValue />
+    <BackColorValue>-8882056</BackColorValue>
+    <ForeColorValue>-6250336</ForeColorValue>
+    <JoystickBtnName>3</JoystickBtnName>
+    <JoystickBtnID>3</JoystickBtnID>
+  </Button>
+</Controller>
